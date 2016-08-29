@@ -1640,7 +1640,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Karla', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1698,11 +1698,19 @@
 		margin: 0 0 2em 0;
 	}
 
+	p.rag {
+		max-width: 35em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
+
+		font-family: 'Archivo Narrow', sans-serif;
+		text-transform: uppercase;
+		letter-spacing:  .1em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
