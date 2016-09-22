@@ -6,7 +6,26 @@
 	License: pixelarity.com/license
 */
 
+.all-events {
+	display: block;
+	text-align: right;
+	/*margin-bottom: 1em;*/
+
+  	overflow: auto;
+  	zoom: 1;
+}
+
+.event-row::after {
+	margin-bottom: 1em;
+}
+
 /* Reset */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    color: white;
+}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -3414,6 +3433,7 @@
 		background-color: #4167a6;
 		cursor: default;
 		padding: 1.75em 2em;
+		font-family: 'Archivo Narrow', sans-serif;
 	}
 
 		#header > .title {
@@ -3422,6 +3442,21 @@
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
+			font-family: 'Archivo Narrow', sans-serif;
+			/*text-transform: uppercase;*/
+		/*letter-spacing:  .12em;*/
+
+			/*color: #ffffff;
+		font-weight: bold;
+		line-height: 1;
+
+		font-family: 'Archivo Narrow', sans-serif;
+		text-transform: uppercase;
+		letter-spacing:  .1em;
+		display: block;
+
+		margin: 0;
+		text-decoration: none;*/
 		}
 
 		#header > nav {
@@ -3454,7 +3489,8 @@
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
-						letter-spacing: 0.25em;
+						/*letter-spacing: 0.25em;*/
+						letter-spacing: 0.2em;
 						text-transform: uppercase;
 					}
 
