@@ -1738,7 +1738,7 @@ html {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 3em;
 	}
 
 		h1.major {
@@ -2933,7 +2933,7 @@ html {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.35);
+		color: rgba(255, 255, 255, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3130,12 +3130,21 @@ html {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: #00DCDD;
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: #7C22FF;
 		}
+
+		.spotlights > section:nth-child(4) {
+			background-color: #00DCDD;
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: #7C22FF;
+		}
+
 
 		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
 			opacity: 1;
@@ -3303,7 +3312,7 @@ html {
 		}
 
 		.wrapper.style1 {
-			background-color: #4167a6;
+			background-color: #2D2062;
 		}
 
 		.wrapper.style1-alt {
@@ -3311,7 +3320,7 @@ html {
 		}
 
 		.wrapper.style2 {
-			background-color: #3f8eb3;
+			background-color: #FD495C;
 		}
 
 		.wrapper.style2-alt {
@@ -3319,7 +3328,7 @@ html {
 		}
 
 		.wrapper.style3 {
-			background-color: #4ca07e;
+			background-color: #FD495C;
 		}
 
 		.wrapper.style3-alt {
@@ -3580,6 +3589,10 @@ html {
 
 		}
 
+	#footer {
+		background-color: #251953;
+	}
+
 	#footer > .inner a {
 		border-bottom-color: rgba(255, 255, 255, 0.15);
 	}
@@ -3601,7 +3614,7 @@ html {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #253149;
+		background: #180D45;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3838,7 +3851,7 @@ html {
 			}
 
 			#sidebar nav a:before {
-				background: #2e3c5a;
+				background: #251953;
 			}
 
 			#sidebar nav a:after {
@@ -3934,7 +3947,7 @@ html {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #4ca07e;
+							background-color: #ffffff;
 						}
 
 		}
