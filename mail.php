@@ -4,10 +4,10 @@
   $email = $_POST['email'];
   $message = $_POST['message'];
 
-  $body = "From:\n" + $email + "\nMessage:\n" + $message;
-  $from = $email;
+  $body = "$message";
+  $from = "thelastdan1@gmail.com";
   $to = "snitkdan@uw.edu";
-  $subject = "Website Contact Form";
+  $subject = "Website Contact Form!";
 
   mail ($to, $subject, $body, $from));
   echo "<p>Your message has been sent!</p>";
