@@ -6,6 +6,8 @@ $(function() {
     //Get submit-message div.
     var submitMessage = $('#submit-message');
 
+
+
     $(form).submit(function(event) {
         // Stop the browser from submitting the form
         event.preventDefault();
