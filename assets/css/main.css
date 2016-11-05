@@ -1718,7 +1718,7 @@ html {
 	}
 
 	p.rag {
-		max-width: 35em;
+		max-width: 40em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2629,7 +2629,7 @@ html {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #4ca07e;
+					color: #4167a6;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3129,16 +3129,20 @@ html {
 				opacity: 1;
 			}
 
+		
+		.spotlights > section:nth-child(1) {
+			background-color: #00DCDE;
+		}
 		.spotlights > section:nth-child(2) {
-			background-color: #00DCDD;
+			background-color: #7C00FF;
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: #7C22FF;
+			background-color: #00DCDE;
 		}
 
 		.spotlights > section:nth-child(4) {
-			background-color: #00DCDD;
+			background-color: #7C00FF;
 		}
 
 		.spotlights > section:nth-child(5) {
@@ -3312,7 +3316,7 @@ html {
 		}
 
 		.wrapper.style1 {
-			background-color: #2D2062;
+			background-color: #180A46;
 		}
 
 		.wrapper.style1-alt {
@@ -3328,7 +3332,7 @@ html {
 		}
 
 		.wrapper.style3 {
-			background-color: #FD495C;
+			background-color: #2D1D64;
 		}
 
 		.wrapper.style3-alt {
@@ -3432,6 +3436,10 @@ html {
 			opacity: 0;
 		}
 
+		#past-event {
+			width:100%;
+		}
+
 /* Header */
 
 	#header {
@@ -3439,7 +3447,7 @@ html {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #4167a6;
+		background-color: #FF4658;
 		cursor: default;
 		padding: 1.75em 2em;
 		font-family: 'Archivo Narrow', sans-serif;
@@ -3614,7 +3622,7 @@ html {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #180D45;
+		background: #FF4658;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3851,7 +3859,7 @@ html {
 			}
 
 			#sidebar nav a:before {
-				background: #251953;
+				background: #FF4658;
 			}
 
 			#sidebar nav a:after {
@@ -3964,10 +3972,10 @@ html {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/phbanner.png");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100% ;
 	}
 
 		#intro p {
