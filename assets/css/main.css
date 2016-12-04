@@ -3509,3 +3509,24 @@ body.is-loading #sidebar nav ul li {
         background-attachment: scroll;
     }
 }
+
+/* The Pixel Project */
+#pixel_project {
+  background-image: url("../../images/pic05.jpg");
+  background-size: cover;
+}
+
+#why_participate {
+  background-image: url('../../images/pic02.jpg');
+  background-size: cover;
+}
+
+#event_timeline {
+  background-image: url('../../images/pic02.jpg');
+  background-size: cover;
+}
+
+#faqs {
+  background-image: url('../../images/pic02.jpg');
+  background-size: cover;
+}
