@@ -3465,7 +3465,7 @@ body.is-loading #sidebar nav ul li {
     background-image: url("images/phbanner.png");
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #intro p {
@@ -3481,6 +3481,12 @@ body.is-loading #sidebar nav ul li {
         background-size: cover;
 				padding-top: 0px;
     }
+
+    #pixel_project {
+        background-size: cover;
+        padding-top: 0px;
+    }
+
 
 		#intro p {
 				padding-left: 0px;
@@ -3508,25 +3514,47 @@ body.is-loading #sidebar nav ul li {
     #intro {
         background-attachment: scroll;
     }
+    #pixel_project {
+      background-attachment: scroll;
+    }
+}
+
+@media screen and (min-width: 850px) {
+  #intro {
+    background-size: ;
+    background-position: top-left;
+  }
 }
 
 /* The Pixel Project */
+
 #pixel_project {
-  background-image: url("../../images/pic05.jpg");
-  background-size: cover;
+  background-image: url('images/Asset4.png');
+  background-repeat: no-repeat;
+  background-color:#120A2A;
+  background-position:center;
+  display:flex;
+  align-items: center;
+}
+
+#rsvp {
+  margin-top:300px;
+  width:50%;
 }
 
 #why_participate {
-  background-image: url('../../images/pic02.jpg');
+  background: -webkit-linear-gradient(#EE4036, #2B388F); /* For Safari 5.1 to 6.0 */
+  background: linear-gradient(#EE4036, #2B388F); /* Standard syntax */
   background-size: cover;
 }
 
 #event_timeline {
-  background-image: url('../../images/pic02.jpg');
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: linear-gradient(#EE4036, #2B388F); /* Standard syntax */
   background-size: cover;
 }
 
 #faqs {
-  background-image: url('../../images/pic02.jpg');
+  background-image: url('../../images/Asset1.jpg');
   background-size: cover;
 }
